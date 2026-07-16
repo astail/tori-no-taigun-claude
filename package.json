@@ -1,0 +1,14 @@
+{
+  "name": "tori-no-taigun-claude",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "リズム天国「鳥の大群」風のファンメイドブラウザリズムゲーム（依存パッケージゼロ）",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,20 @@
+# ローカル確認用:
+#   docker compose up web          → http://localhost:8080 でプレイ
+#   docker compose run --rm test   → ユニットテスト実行
+services:
+  web:
+    image: nginx:1.29-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./style.css:/usr/share/nginx/html/style.css:ro
+      - ./src:/usr/share/nginx/html/src:ro
+
+  test:
+    image: node:22-alpine
+    profiles: ["test"]
+    working_dir: /app
+    volumes:
+      - ./:/app:ro
+    command: ["node", "--test"]

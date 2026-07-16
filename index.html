@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="リズム天国「鳥の大群」風のファンメイドブラウザリズムゲーム。クリック・スペース・タップでリズムに乗ろう！">
+  <title>鳥の大群 - リズムゲーム</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%A6%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="stage">
+    <div id="game-area">
+      <canvas id="game" width="960" height="540"></canvas>
+
+      <div id="overlay-title" class="overlay">
+        <h1>鳥の大群</h1>
+        <p class="sub">リズム天国風・非公式ファンメイドゲーム</p>
+        <p>
+          群れの鳥と同じタイミングでステップ！<br>
+          <strong>クリック / スペースキー / タップ</strong> でリズムに合わせて押そう。<br>
+          「ピー ピャコ ピャッコ」の合図のあとは「ビャー！ビャー！！」で2連続！
+        </p>
+        <p class="sub">ピタッ！= 2点　まあまあ = 1点　ミス = 0点（100点満点）</p>
+        <button id="btn-start" type="button">スタート</button>
+      </div>
+
+      <div id="overlay-result" class="overlay hidden">
+        <h2>おしまい！</h2>
+        <p id="result-score"></p>
+        <p id="result-rank"></p>
+        <p id="result-detail" class="sub"></p>
+        <div class="row">
+          <button id="btn-retry" type="button">もういちど</button>
+          <a id="btn-share" class="button share" href="#" target="_blank" rel="noopener noreferrer">Xで結果をポスト</a>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="panel" width="960" height="150"></canvas>
+  </main>
+
+  <footer>
+    非公式ファンメイド作品です。任天堂および「リズム天国」シリーズとは一切関係ありません。<br>
+    音・グラフィックはすべてプログラムによるオリジナル生成です。
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
