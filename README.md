@@ -1,5 +1,14 @@
 # 鳥の大群（tori-no-taigun-claude）
 
+```
+Claude Code v2.1.211
+Fable 5 with xhigh effort · Claude Pro
+
+2026/07/16
+26m
+```
+
+
 [![CI](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml)
 [![Deploy](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml)
 
