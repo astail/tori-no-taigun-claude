@@ -1,5 +1,14 @@
 # 鳥の大群（tori-no-taigun-claude）
 
+[![CI](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml)
+[![Deploy](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml)
+
+リズム天国「鳥の大群」風の**非公式ファンメイド**ブラウザリズムゲームです。
+群れの鳥と同じタイミングでステップを踏んで、100点満点を目指します。
+
+**▶ 遊ぶ: https://astail.github.io/tori-no-taigun-claude/**
+
+## AI
 ```
 Claude Code v2.1.211
 Fable 5 with xhigh effort · Claude Pro
@@ -36,15 +45,6 @@ docs dirを作成して仕様などをまとめてください。
 test, ci も実装してください。
 
 ```
-
-
-[![CI](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/ci.yml)
-[![Deploy](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml/badge.svg)](https://github.com/astail/tori-no-taigun-claude/actions/workflows/deploy.yml)
-
-リズム天国「鳥の大群」風の**非公式ファンメイド**ブラウザリズムゲームです。
-群れの鳥と同じタイミングでステップを踏んで、100点満点を目指します。
-
-**▶ 遊ぶ: https://astail.github.io/tori-no-taigun-claude/**
 
 ## 遊び方
 
